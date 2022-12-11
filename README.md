@@ -15,4 +15,8 @@
 - Get a ChatGPT session token. Instructions can be found here: [https://www.npmjs.com/package/chatgpt](https://www.npmjs.com/package/chatgpt?activeTab=readme#session-tokens)
 - Enter your bot token, bot client id, and ChatGPT session token into .env.example
 - Rename .env.example to .env
-- To run enter yarn start
+- Run "yarn install" in the project directory
+
+## Run
+
+- Run "yarn start" in the project directory
