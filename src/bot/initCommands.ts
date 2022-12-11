@@ -4,10 +4,10 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export default async function initCommands() {
-  const token = process.env.Bot_TOKEN;
-  const clientId = process.env.ClIENT_ID;
+  const token = process.env.BOT_TOKEN;
+  const clientId = process.env.CLIENT_ID;
 
-  if (!token) throw new Error("No Token");
+  if (!token) throw new Error("No Bot Token");
   if (!clientId) throw new Error("No Client ID");
 
   const commands: Omit<

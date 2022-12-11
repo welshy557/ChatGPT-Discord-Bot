@@ -10,7 +10,7 @@ initCommands();
 const token = process.env.BOT_TOKEN;
 
 if (!token) {
-  throw new Error("No Token");
+  throw new Error("No Bot Token");
 }
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
