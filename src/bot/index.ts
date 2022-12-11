@@ -1,4 +1,4 @@
-import { Client, GatewayIntentBits } from "discord.js";
+import { ActivityType, Client, GatewayIntentBits } from "discord.js";
 import initCommands from "./initCommands.js";
 import request from "../ChatGPT/api.js";
 import * as dotenv from "dotenv";
@@ -15,7 +15,11 @@ if (!token) {
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
-client.on("ready", () => {
+client.on("ready", (client) => {
+  client.user.setPresence({
+    activities: [{ name: "/chat", type: ActivityType.Watching }],
+    status: "online",
+  });
   console.log(`Logged in as ${client?.user?.tag}!`);
 });
 
