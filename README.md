@@ -1,8 +1,8 @@
 # ChatGPT Discord Bot
 
-- Invite Link: https://discord.com/api/oauth2/authorize?client_id=1051342700940640286&permissions=2147485696&scope=bot
-- Hosted at: www.mogenius.com
-- Uses the ChatGPT JS API: [chatgpt - npm (npmjs.com)](https://www.npmjs.com/package/chatgpt) 
+- [Invite to your discord server](https://discord.com/api/oauth2/authorize?client_id=1051342700940640286&permissions=2147485696&scope=bot)
+- Hosted via [mogenius](https://www.mogenius.com)
+- Built with [ChatGPT JS API](https://www.npmjs.com/package/chatgpt) and [Discord.js](https://discord.js.org)
 ## Usage
 - To give a command to ChatGPT, enter /chat followed by your command
 ### Example: 
@@ -20,7 +20,7 @@
 ## Run
 
 #### Node
-- Run yarn start
+- yarn start
 
 #### Docker
 - docker compose build
