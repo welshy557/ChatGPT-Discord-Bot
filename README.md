@@ -19,4 +19,13 @@
 
 ## Run
 
-- Run "yarn start" in the project directory
+#### Node
+- Run yarn start
+
+#### Docker
+- docker compose build
+- docker compose up
+
+## Credits
+- Travis Fischer for creating the chatgpt JS package
+- [OpenAI](https://openai.com) for creating [ChatGPT](https://openai.com/blog/chatgpt)
